@@ -1,3 +1,5 @@
+import styles from './Noticias.module.css';
+
 export default function Noticias({ category }: { category?: string }) {
   let title = "Sección de Noticias";
   
@@ -6,8 +8,8 @@ export default function Noticias({ category }: { category?: string }) {
   else if (category === 'secretaria') title = "Secretaría";
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>{title}</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>{title}</h1>
       <p>Aquí se mostrarán las últimas noticias de {category || 'el instituto'}.</p>
     </div>
   );

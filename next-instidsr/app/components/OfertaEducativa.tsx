@@ -1,3 +1,5 @@
+import styles from './OfertaEducativa.module.css';
+
 export default function OfertaEducativa({ nivel }: { nivel?: string }) {
   let title = "Oferta Educativa";
   
@@ -6,9 +8,9 @@ export default function OfertaEducativa({ nivel }: { nivel?: string }) {
   else if (nivel === 'fp') title = "Formación Profesional";
 
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>{title}</h1>
-      <ul>
+    <div className={styles.container}>
+      <h1 className={styles.title}>{title}</h1>
+      <ul className={styles.list}>
         {(!nivel || nivel === 'eso') && <li>1º - 4º ESO</li>}
         {(!nivel || nivel === 'bachillerato') && <li>Ciencias y Tecnología</li>}
         {(!nivel || nivel === 'bachillerato') && <li>Humanidades y Ciencias Sociales</li>}

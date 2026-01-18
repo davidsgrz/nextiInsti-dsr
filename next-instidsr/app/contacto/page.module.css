@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.contentSection {
+    flex: 1;
+    background-color: #f5f5dc;
+    /* beige */
+    padding: 2rem;
+    min-height: 400px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #444;
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.errorCode {
+    font-size: 4rem;
+    color: #d32f2f;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.link {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
