@@ -1,0 +1,95 @@
+.footer {
+    background-color: #eaddcf;
+    /* Beige/Tan background */
+    color: #333;
+    padding: 0;
+    /* Padding handled inside containers */
+    margin-top: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 4rem;
+    /* Wide padding */
+}
+
+/* Enlaces section */
+.infoSection {
+    flex: 1;
+}
+
+.infoSection h3 {
+    background-color: #9b9ae6;
+    /* Purple highlight for title? Checking image... actually title looks like text with purple underline or box. Let's make it a pill for now based on 'Enlaces de interes' text in bottom left */
+    display: inline-block;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.infoSection ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.infoSection li {
+    margin-bottom: 0.5rem;
+    color: white;
+    /* White text on beige? No, image shows white text lists? Wait. */
+    /* Looking at Image 1: 'Web 50 aniversario' is white text on the beige background? Or is the background purple? */
+    /* Actually, looking at 'Enlaces de interés' in Image 1, it looks like a list on the left. Text color is hard to see, assume white or dark grey. Let's try white since there is a purple block next to it. */
+    /* Actually, the whole footer background might be darker in that section? */
+    /* Let's go with: Beige background globally. White text for links might be unreadable. Let's use WHITE text with a subtle shadow or just dark text if beige is light. */
+    /* Correction: Image 1 shows 'Enlaces de interés' in a purple box on the left. The links below it are white text on a PURPLE background? No, looks like the whole bottom strip is purple? */
+    /* Let's look at Image 2 (Contact page). Footer is at bottom. */
+    /* There is a big brown bar. Inside: */
+    /* LEFT: 'Enlaces de interés' (White text, purple bg pill). Links below are white text on the brown bg? */
+    /* CENTER: 'Encuéntranos en...' (White text, PURPLE BG BLOCK). */
+    /* RIGHT: 'by Domingo López Oller' (White text, PURPLE BG PILL). */
+}
+
+.infoSection li {
+    color: white;
+    font-weight: 500;
+}
+
+/* Contact box (Center/Right) */
+.contactSection {
+    background-color: #9b9ae6;
+    /* Periwinkle/Purple */
+    color: white;
+    padding: 1.5rem;
+    flex: 1;
+    margin: 0 2rem;
+    max-width: 400px;
+}
+
+.contactSection h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.contactSection p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Credit (Right) */
+.creditSection {
+    align-self: flex-end;
+}
+
+.creditSection p {
+    background-color: #9b9ae6;
+    color: white;
+    padding: 5px 15px;
+    margin: 0;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,22 @@
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.item {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    font-weight: bold;
+    color: #666;
+}
