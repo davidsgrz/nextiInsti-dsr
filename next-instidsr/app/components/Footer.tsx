@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import Logo from './Logo';
 
 export default function Footer() {
   return (
@@ -23,6 +24,11 @@ export default function Footer() {
             <p><strong>DIRECCIÓN ELECTRÓNICA:</strong></p>
             <p>https://iescuravalera.es</p>
             <p>04002714.edu@juntadeandalucia.es</p>
+            <div className={styles.socialLogos}>
+                <Logo image="/instagram.jpg" link="https://instagram.com" alt="Instagram" width={40} />
+                <Logo image="/x.png" link="https://twitter.com" alt="X" width={40} />
+                <Logo image="/whatsapp.png" link="https://whatsapp.com" alt="WhatsApp" width={40} />
+            </div>
         </div>
         <div className={styles.creditSection}>
             <p>by DAVID</p> 

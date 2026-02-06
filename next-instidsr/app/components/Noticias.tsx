@@ -10,6 +10,7 @@ export default function Noticias({ category }: { category?: string }) {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>{title}</h1>
+  
       <p>Aquí se mostrarán las últimas noticias de {category || 'el instituto'}.</p>
     </div>
   );

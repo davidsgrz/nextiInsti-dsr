@@ -1,0 +1,15 @@
+.container {
+    display: inline-block;
+    transition: transform 0.2s;
+    margin: 0 5px;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    display: block;
+    border-radius: 4px;
+    /* Bordes */
+}

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './InfoCard.module.css';
 
 export default function InfoCard() {
@@ -15,7 +16,9 @@ export default function InfoCard() {
             <h3 className={styles.title}>Almería</h3>
             <p className={styles.description}>Tierra de alumnos de ASIR y DAW</p>
             <div className={styles.arrow}>
-                
+                <Link href="/?noticia=almeria" scroll={false} className={styles.linkButton}>
+                    Ver detalle
+                </Link>
             </div>
         </div>
     </div>
